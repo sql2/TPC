@@ -1,0 +1,14 @@
+table ORDERS
+{
+"O_ORDERKEY" integer;
+"O_CUSTKEY" integer;
+"O_ORDERSTATUS" char (1);
+"O_TOTALPRICE" numeric (15, 2);
+"O_ORDERDATE" date;
+"O_ORDERPRIORITY" char (15);
+"O_CLERK" char (15);
+"O_SHIPPRIORITY" integer;
+"O_COMMENT" varchar (79);
+}
+DATEFORM YYYY/MM/DD HH:MI:SS:SSSSSS
+DATA_NLS_USE=US7ASCII

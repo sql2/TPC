@@ -1,0 +1,11 @@
+table SUPPLIER
+{
+"S_SUPPKEY" integer;
+"S_NAME" char (25);
+"S_ADDRESS" varchar (40);
+"S_NATIONKEY" integer;
+"S_PHONE" char (15);
+"S_ACCTBAL" numeric (15, 2);
+"S_COMMENT" varchar (101);
+}
+DATA_NLS_USE=US7ASCII

@@ -1,0 +1,13 @@
+table PART
+{
+"P_PARTKEY" integer;
+"P_NAME" varchar (55);
+"P_MFGR" char (25);
+"P_BRAND" char (10);
+"P_TYPE" varchar (25);
+"P_SIZE" integer;
+"P_CONTAINER" char (10);
+"P_RETAILPRICE" numeric (15, 2);
+"P_COMMENT" varchar (23);
+}
+DATA_NLS_USE=US7ASCII

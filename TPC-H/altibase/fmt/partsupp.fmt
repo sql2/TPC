@@ -1,0 +1,9 @@
+table PARTSUPP
+{
+"PS_PARTKEY" integer;
+"PS_SUPPKEY" integer;
+"PS_AVAILQTY" integer;
+"PS_SUPPLYCOST" numeric (15, 2);
+"PS_COMMENT" varchar (199);
+}
+DATA_NLS_USE=US7ASCII

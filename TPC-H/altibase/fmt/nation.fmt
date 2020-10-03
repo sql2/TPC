@@ -1,0 +1,8 @@
+table NATION
+{
+"N_NATIONKEY" integer;
+"N_NAME" char (25);
+"N_REGIONKEY" integer;
+"N_COMMENT" varchar (152);
+}
+DATA_NLS_USE=US7ASCII

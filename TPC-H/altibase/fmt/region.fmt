@@ -1,0 +1,7 @@
+table REGION
+{
+"R_REGIONKEY" integer;
+"R_NAME" char (25);
+"R_COMMENT" varchar (152);
+}
+DATA_NLS_USE=US7ASCII
