@@ -1,0 +1,17 @@
+VACUUM FULL VERBOSE customer;
+VACUUM FULL VERBOSE lineitem;
+VACUUM FULL VERBOSE nation;
+VACUUM FULL VERBOSE orders;
+VACUUM FULL VERBOSE part;
+VACUUM FULL VERBOSE partsupp;
+VACUUM FULL VERBOSE region;
+VACUUM FULL VERBOSE supplier;
+
+ANALYZE customer;
+ANALYZE lineitem;
+ANALYZE nation;
+ANALYZE orders;
+ANALYZE part;
+ANALYZE partsupp;
+ANALYZE region;
+ANALYZE supplier;

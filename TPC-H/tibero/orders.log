@@ -1,0 +1,29 @@
+
+tbLoader 6  
+
+TmaxData Corporation Copyright (c) 2008-. All rights reserved.
+
+Data File    : /home/dbdbdeep/work/TPC/TPC-H/csv/orders.csv
+Bad File     : orders.bad
+Discard File : /home/dbdbdeep/work/TPC/TPC-H/csv/orders.dsc
+
+Table SYS.ORDERS, was loaded from the data file.
+
+COLUMN_NAME                      POSITION DATATYPE
+------------------------------ ---------- ----------------
+O_ORDERKEY                              1 CHARACTER       
+O_CUSTKEY                               2 CHARACTER       
+O_ORDERSTATUS                           3 CHARACTER       
+O_TOTALPRICE                            4 CHARACTER       
+O_ORDERDATE                             5 DATE            
+O_ORDERPRIORITY                         6 CHARACTER       
+O_CLERK                                 7 CHARACTER       
+O_SHIPPRIORITY                          8 CHARACTER       
+O_COMMENT                               9 CHARACTER       
+
+Table SYS.ORDERS :
+	1500000 Rows were requested to load.
+	1500000 Rows were loaded successfully.
+	0 Rows were failed to load because of some errors
+
+Total Elapsed Time was    : 00:00:03.018102

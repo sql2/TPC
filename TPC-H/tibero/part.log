@@ -1,0 +1,29 @@
+
+tbLoader 6  
+
+TmaxData Corporation Copyright (c) 2008-. All rights reserved.
+
+Data File    : /home/dbdbdeep/work/TPC/TPC-H/csv/part.csv
+Bad File     : part.bad
+Discard File : /home/dbdbdeep/work/TPC/TPC-H/csv/part.dsc
+
+Table SYS.PART, was loaded from the data file.
+
+COLUMN_NAME                      POSITION DATATYPE
+------------------------------ ---------- ----------------
+P_PARTKEY                               1 CHARACTER       
+P_NAME                                  2 CHARACTER       
+P_MFGR                                  3 CHARACTER       
+P_BRAND                                 4 CHARACTER       
+P_TYPE                                  5 CHARACTER       
+P_SIZE                                  6 CHARACTER       
+P_CONTAINER                             7 CHARACTER       
+P_RETAILPRICE                           8 CHARACTER       
+P_COMMENT                               9 CHARACTER       
+
+Table SYS.PART :
+	200000 Rows were requested to load.
+	200000 Rows were loaded successfully.
+	0 Rows were failed to load because of some errors
+
+Total Elapsed Time was    : 00:00:00.560133

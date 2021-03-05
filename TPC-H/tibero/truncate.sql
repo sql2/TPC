@@ -1,0 +1,10 @@
+TRUNCATE TABLE customer;
+TRUNCATE TABLE lineitem;
+TRUNCATE TABLE nation;
+TRUNCATE TABLE orders;
+TRUNCATE TABLE part;
+TRUNCATE TABLE partsupp;
+TRUNCATE TABLE region;
+TRUNCATE TABLE supplier;
+
+exit

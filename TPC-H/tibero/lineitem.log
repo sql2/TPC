@@ -1,0 +1,36 @@
+
+tbLoader 6  
+
+TmaxData Corporation Copyright (c) 2008-. All rights reserved.
+
+Data File    : /home/dbdbdeep/work/TPC/TPC-H/csv/lineitem.csv
+Bad File     : lineitem.bad
+Discard File : /home/dbdbdeep/work/TPC/TPC-H/csv/lineitem.dsc
+
+Table SYS.LINEITEM, was loaded from the data file.
+
+COLUMN_NAME                      POSITION DATATYPE
+------------------------------ ---------- ----------------
+L_ORDERKEY                              1 CHARACTER       
+L_PARTKEY                               2 CHARACTER       
+L_SUPPKEY                               3 CHARACTER       
+L_LINENUMBER                            4 CHARACTER       
+L_QUANTITY                              5 CHARACTER       
+L_EXTENDEDPRICE                         6 CHARACTER       
+L_DISCOUNT                              7 CHARACTER       
+L_TAX                                   8 CHARACTER       
+L_RETURNFLAG                            9 CHARACTER       
+L_LINESTATUS                           10 CHARACTER       
+L_SHIPDATE                             11 DATE            
+L_COMMITDATE                           12 DATE            
+L_RECEIPTDATE                          13 DATE            
+L_SHIPINSTRUCT                         14 CHARACTER       
+L_SHIPMODE                             15 CHARACTER       
+L_COMMENT                              16 CHARACTER       
+
+Table SYS.LINEITEM :
+	6001215 Rows were requested to load.
+	6001215 Rows were loaded successfully.
+	0 Rows were failed to load because of some errors
+
+Total Elapsed Time was    : 00:00:15.939340
